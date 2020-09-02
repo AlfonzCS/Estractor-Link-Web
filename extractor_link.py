@@ -32,7 +32,7 @@ def ClownLogo():
  / /____>  </ /_/ /  / /_/ / /__/ /_/ /_/ / /     / /___/ / / / / ,<   
 /_____/_/|_|\__/_/   \__,_/\___/\__/\____/_/     /_____/_/_/ /_/_/|_|  
                                                                        
-Nota! : Scanning Port es un escaner 100% funcional, verifique con nmap.       
+CS! : Extractor Link es un script 100% funcional y es para uso personal.       
     """
     for N, line in enumerate(x.split("\n")):
          sys.stdout.write("\x1b[1;%dm%s%s\n" % (random.choice(colors), line, clear))
